@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Emordes Studio</title>
+<meta name="description" content="Emordes Studio, a creative house for speculative dress.">
+<meta name="theme-color" content="#ece7dd">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Emordes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="star" viewBox="0 0 100 100"><path d="M50 0C53 36 64 47 100 50 64 53 53 64 50 100 47 64 36 53 0 50 36 47 47 36 50 0Z"/></symbol>
+<symbol id="spiral" viewBox="0 0 100 100"><path d="M50 50c0-4 4-6 7-4 5 3 4 10-1 13-7 4-16 0-18-8-3-10 4-19 14-21 13-2 24 7 24 20 0 15-13 26-28 25-18-1-31-16-29-33" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+</defs>
+</svg>
+
+<header class="top">
+<span class="mono">EMORDES STUDIO</span>
+<span class="mono dim" id="clock">SF / CA</span>
+</header>
+
+<main id="app">
+
+<section class="view active" id="home" aria-label="Home">
+<div class="hero">
+<svg class="spin spiral-bg" aria-hidden="true"><use href="#spiral"/></svg>
+<svg class="s s1" aria-hidden="true"><use href="#star"/></svg>
+<svg class="s s2" aria-hidden="true"><use href="#star"/></svg>
+<svg class="s s3" aria-hidden="true"><use href="#star"/></svg>
+<img class="logo" src="icons/emordes_logo_black.svg" alt="Emordes Studio">
+<p class="tag">a creative house for speculative dress</p>
+</div>
+
+<a class="card next" href="#events" data-go="events">
+<span class="mono">NEXT UP</span>
+<h2>UNDSCVRD<br>fashion show</h2>
+<p class="meta"><span>Nov 13, 2026</span><span>San Francisco</span></p>
+<span class="arrow mono">SEE EVENTS +</span>
+</a>
+
+<div class="row2">
+<a class="card chrome" href="#archive" data-go="archive"><span class="mono">ARCHIVE</span><b>Sirko</b><small>FAHM FEST 2026</small></a>
+<a class="card ink" href="#drops" data-go="drops"><span class="mono">DROPS</span><b>No. 001</b><small>coming soon</small></a>
+</div>
+
+<div class="install" id="install" hidden>
+<svg class="star" aria-hidden="true"><use href="#star"/></svg>
+<p id="installText"></p>
+<button id="installBtn" class="btn" hidden>Install app</button>
+<button class="x" id="installX" aria-label="Dismiss">&times;</button>
+</div>
+</section>
+
+<section class="view" id="archive" aria-label="Archive">
+<p class="mono">ARCHIVE / 01</p>
+<h1 class="script">Sirko</h1>
+<p class="meta"><span>FAHM FEST</span><span>Oakland</span><span>Oct 24, 2026</span></p>
+<p class="lede">Ivory layers, reconstructed textures, and silver details. Captured by Jewels.</p>
+<div class="grid" id="grid"></div>
+</section>
+
+<section class="view" id="events" aria-label="Events">
+<p class="mono">EVENTS</p>
+<h1 class="script">Next</h1>
+<article class="card big">
+<span class="mono">NOV 13, 2026 / SAN FRANCISCO</span>
+<h2>UNDSCVRD<br>fashion show</h2>
+<p>Emordes shows at UNDSCVRD. More details soon. Follow Instagram for updates.</p>
+<a class="btn" href="https://www.instagram.com/emordes.studio/" target="_blank" rel="noopener">Follow for updates</a>
+</article>
+<p class="mono dim sp">PAST</p>
+<a class="card row" href="#archive" data-go="archive"><span><b>Sirko</b><small>FAHM FEST, Oakland. Oct 24, 2026</small></span><span class="mono">VIEW +</span></a>
+</section>
+
+<section class="view" id="drops" aria-label="Drops">
+<p class="mono">DROPS</p>
+<h1 class="script">Numbered</h1>
+<p class="lede">Small numbered releases. Nothing is on sale yet.</p>
+<div class="drops">
+<div class="drop"><span class="mono">No. 001</span><svg class="spin" aria-hidden="true"><use href="#spiral"/></svg><b>Coming soon</b></div>
+<div class="drop"><span class="mono">No. 002</span><svg class="star" aria-hidden="true"><use href="#star"/></svg><b>Coming soon</b></div>
+<div class="drop"><span class="mono">No. 003</span><svg class="spin" aria-hidden="true"><use href="#spiral"/></svg><b>Coming soon</b></div>
+</div>
+<a class="btn wide" href="mailto:contact@emordes.studio?subject=Drop%20list&body=Please%20add%20me%20to%20the%20Emordes%20drop%20list.">Email us to join the drop list</a>
+<p class="fine">This opens your email app and sends us a message. It does not save your address anywhere automatically.</p>
+</section>
+
+<section class="view" id="contact" aria-label="Contact">
+<p class="mono">CONTACT</p>
+<h1 class="script">Say hi</h1>
+<a class="card row" href="mailto:contact@emordes.studio"><span><b>Email</b><small>contact@emordes.studio</small></span><span class="mono">OPEN +</span></a>
+<a class="card row" href="https://www.instagram.com/emordes.studio/" target="_blank" rel="noopener"><span><b>Instagram</b><small>@emordes.studio</small></span><span class="mono">OPEN +</span></a>
+<a class="card row" href="https://www.emordes.studio" target="_blank" rel="noopener"><span><b>Website</b><small>emordes.studio</small></span><span class="mono">OPEN +</span></a>
+<p class="mono dim sp">Shoe loans, press, collabs, and drop list. All by email.</p>
+</section>
+
+</main>
+
+<nav class="tabs" aria-label="Main">
+<button data-go="home" class="on"><svg aria-hidden="true"><use href="#star"/></svg><span>Home</span></button>
+<button data-go="archive"><svg aria-hidden="true"><use href="#star"/></svg><span>Archive</span></button>
+<button data-go="events"><svg aria-hidden="true"><use href="#star"/></svg><span>Events</span></button>
+<button data-go="drops"><svg aria-hidden="true"><use href="#star"/></svg><span>Drops</span></button>
+<button data-go="contact"><svg aria-hidden="true"><use href="#star"/></svg><span>Contact</span></button>
+</nav>
+
+<div class="lb" id="lb" hidden role="dialog" aria-label="Photo viewer">
+<button class="lbx" id="lbx" aria-label="Close">&times;</button>
+<button class="lbn prev" id="lbp" aria-label="Previous">&lsaquo;</button>
+<img id="lbi" alt="">
+<button class="lbn next" id="lbnx" aria-label="Next">&rsaquo;</button>
+<p class="mono" id="lbc"></p>
+</div>
+<script src="app.js"></script>
+</body></html>
